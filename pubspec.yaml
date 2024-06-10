@@ -30,7 +30,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_riverpod:
+  riverpod_annotation:
   retrofit: null
   logger: null
   json_annotation: null
@@ -39,6 +40,7 @@ dependencies:
   go_router: ^14.1.4
   flutter_localizations:
     sdk: flutter
+  card_swiper: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +48,9 @@ dev_dependencies:
   retrofit_generator: null
   build_runner: null
   json_serializable: null
+  custom_lint:
+  riverpod_generator:
+  riverpod_lint:
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
