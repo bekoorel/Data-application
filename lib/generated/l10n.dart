@@ -50,10 +50,10 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `Home Movies`
+  /// `Choose Movie`
   String get hometitle {
     return Intl.message(
-      'Home Movies',
+      'Choose Movie',
       name: 'hometitle',
       desc: '',
       args: [],

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ColorsForAllApp {
   static Color tealGreen = const Color(0xFF017373);
@@ -7,7 +8,7 @@ class ColorsForAllApp {
   static Color lightCoral = const Color(0xFFD9705A);
   static Color paleGold = const Color(0xFFD9BA83);
   static Color white = const Color(0xFFFFFFFF);
-
+/*
   static LinearGradient lightAquaGradient = LinearGradient(
     colors: <Color>[lightAqua, lightAqua.withOpacity(1.0)],
     begin: Alignment.topLeft, // بداية التدرج
@@ -25,7 +26,7 @@ class ColorsForAllApp {
     begin: Alignment.topLeft, // بداية التدرج
     end: Alignment.bottomRight, // نهاية التدرج
   );
-
+*/
   static LinearGradient backGroundGradient = LinearGradient(
     colors: <Color>[
       tealGreen,
@@ -37,8 +38,8 @@ class ColorsForAllApp {
   );
 
   static TextStyle font36blod =
-      TextStyle(color: white, fontSize: 36, fontWeight: FontWeight.bold);
+      TextStyle(color: white, fontSize: 36.sp, fontWeight: FontWeight.bold);
 
-  static TextStyle font36normal =
-      TextStyle(color: white, fontSize: 36, fontWeight: FontWeight.normal);
+  static TextStyle font20normal =
+      TextStyle(color: white, fontSize: 20.sp, fontWeight: FontWeight.bold);
 }
