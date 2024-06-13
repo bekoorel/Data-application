@@ -20,3 +20,7 @@
 ### riverpod_generator:
 ### riverpod_lint:
 ### flutter_lints: ^3.0.0
+
+<img src="images/1.png" width="600" />
+<img src="images/2.png" width="600" />
+<img src="images/3.png" width="600" />
